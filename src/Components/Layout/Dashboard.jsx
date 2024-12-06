@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../BasicComponents/Navbar';
+import ShirtImage from '../../../src/assets/img/dashhead1.jpg'
 
 
 const Dashboard = () => {
@@ -10,24 +11,44 @@ const Dashboard = () => {
      <div className="d-flex justify-content-center pagecolor">
       <div className="row">
         <div className="col-md">
+          <img src={ShirtImage}
+          className="img-fluid " 
+          height={10}
+            alt="" 
+          />
           <h1>Welcome to your Dashboard</h1>
-          <p>This is your personalized e-commerce website dashboard.</p>
         </div>
         <div className="col-md">
+          <img src={ShirtImage}
+          className="img-fluid " 
+          height={10}
+            alt="" 
+          />
           <h1>Welcome to your Dashboard</h1>
-          <p>This is your personalized e-commerce website dashboard.</p>
         </div>
         <div className="col-md">
+          <img src={ShirtImage}
+          className="img-fluid " 
+          height={10}
+            alt="" 
+          />
           <h1>Welcome to your Dashboard</h1>
-          <p>This is your personalized e-commerce website dashboard.</p>
         </div>
         <div className="col-md">
+          <img src={ShirtImage}
+          className="img-fluid " 
+          height={10}
+            alt="" 
+          />
           <h1>Welcome to your Dashboard</h1>
-          <p>This is your personalized e-commerce website dashboard.</p>
         </div>
         <div className="col-md">
+          <img src={ShirtImage}
+          className="img-fluid " 
+          height={10}
+            alt="" 
+          />
           <h1>Welcome to your Dashboard</h1>
-          <p>This is your personalized e-commerce website dashboard.</p>
         </div>
       </div>
      </div>
